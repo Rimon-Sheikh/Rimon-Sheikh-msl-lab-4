@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6; /* Updated background */
+    margin: 0;
+    padding: 30px;
+}
+
+
+h1 {
+    color: #2c3e50; 
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+#posts-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+
+.post-card {
+    background: #ffffffeb;
+    padding: 24px;
+    margin-bottom: 22px;
+    border-radius: 12px;
+    border: 1px solid #b2ebf2;
+    box-shadow: 0 4px 8px rgba(13, 71, 161, 0.08);
+}
+
+
+.post-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(13, 71, 161, 0.15);
+}
+
+
+.post-card h3 {
+    color: #5e0da1;  
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+
+.post-card p {
+    color: #333333;
+    line-height: 1.6;
+    font-size: 15px;
+}
